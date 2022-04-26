@@ -29,13 +29,9 @@
     },
   ];
 
-
   products.forEach(function(item, i, products){
     let newPrice = item.price / 100 * 15;
     item.price = item.price - newPrice;
-
-    // console.log(item.price);
-
   })
 
   console.log(products)
